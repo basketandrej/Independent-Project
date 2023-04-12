@@ -3,6 +3,7 @@ html {
   color: white;
   scroll-behavior: smooth;
   line-height: 1.4;
+  margin-top: 0px;
 }
 
 nav ul {
