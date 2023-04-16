@@ -52,17 +52,30 @@ p {
   border-bottom: 0.5px solid grey;
 }
 
+.david-lynch {
+  border-bottom: 0.5px solid grey;
+}
+
+.darren-aronofsky {
+  border-bottom: 0.5px solid grey;
+}
+
+.nicolas-winding-refn {
+  border-bottom: 0.5px solid grey;
+}
+
+
 .artist-grid {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.lars-von-trier-image {
+.left-artist-image {
   width: 100%;
   grid-column: 1/-1;
 }
 
-.david-lynch-image {
+.right-artist-image {
   width: 100%;
   grid-column: 1/-1; 
 }
@@ -79,6 +92,11 @@ p {
   padding: 2em;
 }
 
+footer div {
+  height: 40vh;
+  background-color: black;
+}
+
 @media only screen and (min-width: 70em) {
 
   .artist-grid {
@@ -87,20 +105,19 @@ p {
     align-items: center;
   }
 
-  .lars-von-trier-image {
+  .left-artist-image {
     grid-column: 1/6;
   }
+
+  .right-artist-image {
+    grid-column: 4/-1; 
+  }
+
 
   .artist-text {
     grid-column: 6/-1;
     max-width: 400px;
   }
-
-  .david-lynch-image {
-    grid-column: 4/-1; 
-  }
-
-
 
   .artist-text2 {
     grid-column: 1/4;
