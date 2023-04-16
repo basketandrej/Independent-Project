@@ -95,7 +95,13 @@ p {
 footer div {
   height: 40vh;
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+
 }
+
 
 @media only screen and (min-width: 70em) {
 
