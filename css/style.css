@@ -48,6 +48,13 @@ p {
   background-size: cover;
 }
 
+.musicians-background-image {
+  background-image: url("/images/musicians.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+
 .lars-von-trier {
   border-bottom: 0.5px solid grey;
 }
@@ -92,6 +99,25 @@ p {
   padding: 2em;
 }
 
+.music-content-area {
+  height: 100vh;
+}
+
+.musician-text {
+  max-width: 400px;
+  margin: auto;
+  padding-top: 5em;
+
+}
+
+#death-grips-content {
+  padding-top: 9em;
+}
+
+#tim-hecker-content {
+  padding-top: 9em;
+}
+
 footer div {
   height: 40vh;
   background-color: black;
@@ -100,6 +126,10 @@ footer div {
   align-items: center;
   gap: 2em;
 
+}
+
+footer div img {
+  width: 10%; /*look into this after*/
 }
 
 
@@ -117,6 +147,10 @@ footer div {
 
   .right-artist-image {
     grid-column: 4/-1; 
+  }
+
+  .musician-image {
+    width: 100%;
   }
 
 
@@ -138,5 +172,9 @@ footer div {
   .artist-text2 p:last-child {
     margin-bottom: 2em;
   } 
+
+  footer div img {
+    width: 5%; 
+  }
 
 }
