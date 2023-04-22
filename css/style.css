@@ -140,14 +140,6 @@ p {
   
 }
 
-.title-left {
-  grid-column: 1/3;
-  grid-row: -1/1;
-  
-}
-
-
-
 .music-content-area {
   height: 100vh;
 }
@@ -238,6 +230,12 @@ footer div img {
     padding-right: 2em;
   }
 
+  .visual-artist-text-left {
+    grid-column: 1/1;
+    grid-row: 1/1;
+    padding-left: 2em;
+  }
+
   .artist-text p:last-child {
     margin-bottom: 2em;
   }
@@ -245,6 +243,23 @@ footer div img {
   .artist-text2 p:last-child {
     margin-bottom: 2em;
   } 
+
+  .title-left {
+    grid-column: 1/3;
+    grid-row: -1/1;
+    
+  }
+
+  .title-left {
+    grid-column: 1/3;
+    grid-row: -1/1;
+    
+  }
+
+  .title-right {
+    grid-column: -1/-3;
+    grid-row: 1/1;
+  }
 
   
 
